@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HB GEMILANG</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">HB<span>GEMILANG</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>CEMILAN TRADISIONAL<span>RASA INTERNASIONAL</span></h1>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!--About Section Start  -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/profile perusahaan.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>kenapa memilih cemilan kami</h3>
+          <p>HB GEMILANG adalah startup kuliner yang bergerak di bidang produksi dan distribusi keripik tempe berkualitas premium. Kami menghadirkan camilan tradisional Indonesia dengan sentuhan modern, higienis, dan cita rasa yang konsisten.
+
+            Didirikan pada tahun 2025, kami berkomitmen untuk mengangkat tempe sebagai makanan khas Indonesia menjadi camilan yang digemari semua kalangan, baik anak muda maupun keluarga.</p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--About Section end  -->
+
+    <!-- menu section start -->
+    <secction id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/ORI.jpeg" alt="Original" class="menu-card-img" />
+          <h3 class="menu-card-title">-Original-</h3>
+          <p class="menu-card-price">IDR 40K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/PEDAS.jpeg" alt="Pedas" class="menu-card-img" />
+          <h3 class="menu-card-title">-Pedas-</h3>
+          <p class="menu-card-price">IDR 45K</p>
+        </div>
+        
+      </div>
+    </secction>
+
+    <!-- menu section end -->
+
+    <!-- contact section start -->
+
+    <section id="kontak" class="kontak">
+      <h2><span>Kontak</span> Kami</h2>
+      <div class="row">
+        <iframe
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.829848286435!2d108.41453729999999!3d-7.145664899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f439a1cb9ef63%3A0xe8ec02b31315180a!2sMesjid%20jami%20al-hikmah!5e0!3m2!1sid!2sid!4v1771310268847!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="button">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/tempehchips.raden?igsh=MWxrZGU1bzRjaW8y"> <i data-feather="instagram"></i> Instagram</a>
+        <a href="https://www.linkedin.com/in/bosant-bosant-7618643b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i data-feather="linkedin"></i> Linkedin</a>
+        <a href="https://www.facebook.com/share/1F8ygH4P5X/"> <i data-feather="facebook"></i> Facebook</a>
+        <a href="https://wa.me/6285217335911"> <i data-feather="phone"></i> WhatsApp</a>
+      </div>
+
+      <div class="links"></div>
+      <a href="#home">home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">menu</a>
+      <a href="#kontak">kontak</a>
+
+      <div class="credit">
+        <p>Created by <a href="">Deden</a>.| &copy;2025.</p>
+      </div>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- contact section end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
